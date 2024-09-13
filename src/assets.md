@@ -31,3 +31,5 @@ Documentaries: 'https://api.themoviedb.org/3/discover/movie?api_key=${API_KEY_HE
 ////////////////////////////////////////////////////////////////////API KEY////////////////////////////////////////////////////////////////////////////
 
 API_KEY = "YOUR API KEY"
+
+https://api.themoviedb.org/3/discover/movie?api_key=${dfa3cc04cec68dd4d5361936471c4423}&with_genres=99

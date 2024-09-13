@@ -2,6 +2,21 @@
     margin-left: 20px;
     color: #fff;
 }
+.posterContainer {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .posterTitle {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 5px;
+    border-radius: 3px;
+    font-size: 14px;
+  }
 
 .posters{
     display: flex;
@@ -11,7 +26,7 @@
 }
 
 .posters::-webkit-scrollbar{
-    display: none;
+    display: inline;
 }
 
 
@@ -24,9 +39,9 @@
     max-height: 150px;
     margin-right: 10px;
 }
-.poster:hover{
+/* .poster:hover{
     transform: scale(1.1);
 }
 .smallPoster:hover{
     transform: scale(1.1);
-}
+} */
