@@ -9,7 +9,7 @@ function RowPost(props) {
     axios
       .get(props.url)
       .then((response) => {
-        //console.log(response.data.results);
+        console.log(response.data.results);
         setMovies(response.data.results);
       })
       .catch((err) => {
